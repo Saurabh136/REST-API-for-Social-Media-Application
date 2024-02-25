@@ -1,0 +1,9 @@
+package com.apiproject.rest.webservices.restfulwebservices.jpa;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.apiproject.rest.webservices.restfulwebservices.user.User;
+
+public interface UserRepository extends JpaRepository<User, Integer> {
+
+}
